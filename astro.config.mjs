@@ -7,7 +7,8 @@ export default defineConfig({
   integrations: [
     i18n({
       defaultLocale: "en",
-      locales: ["en", "nl"], // must include the default locale
+      locales: ["en", "nl"], // must include the default locale,
+      client: { data: true },
     }),
   ],
 });
