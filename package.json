@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.0.2"
+    "@astrolicious/i18n": "^0.5.1",
+    "astro": "^5.0.2",
+    "i18next": "^23.16.8"
   }
 }
